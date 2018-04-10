@@ -20,4 +20,4 @@ spec:
         ports:
         - containerPort: 80
         command: ["/bin/sh","-c"]
-        args: ["wget -o /usr/share/nginx/html/default.html https://raw.githubusercontent.com/ronengilboa/html/master/ht.html"]
+        args: ["wget -P /usr/share/nginx/html/ https://raw.githubusercontent.com/ronengilboa/html/master/index.html"]
